@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="portfolio1.css" />
+    <style>
+      .heading {
+        margin-left: 450px;
+        font-size: 40px;
+      }
+
+      .aboutinfo {
+        margin-top: 25px;
+        margin-left: 100px;
+      }
+      .alter {
+        font-size: 24px;
+        color: gray;
+      }
+      .txtcl {
+        color: cadetblue;
+      }
+      .image {
+        height: 300px;
+        width: 250px;
+        border-radius: 100px;
+        margin-left: 650px;
+        margin-top: -230px;
+      }
+
+      .box{
+
+        width: 100% ;
+        height: 30%;
+        /*background-color:yellow ;*/
+        margin: 20px 0px 0px 20px ;
+        display: flex;
+      }
+      .box1{
+
+        height: 350px;
+        width: 350px;
+        background-color: rgb(245, 241, 241);
+        margin: 25px; 
+        box-shadow: 2px 2px 2px 2px black;
+      
+      
+      }
+      .box2{
+        height: 350px;
+        width: 350px;
+        background-color:rgb(252, 246, 246) ;
+        margin:25px ;
+        box-shadow: 2px 2px 2px 2px  black;
+      }
+      .downloadBtn:hover{ 
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="aboutinfo">
+        <h1 class="heading">About Us</h1>
+        <br />
+        <p class="alter">
+          Holla Folks <span class="txtcl">Tanishka Vashishtha</span>.
+        </p>
+        <br /><br />
+        <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf"
+        >Download Resume</a
+      >
+        <div style="margin-top: 30px;">
+          <h1 style="font-size: 40px; color: gray">What I Do As A Developer</h1>
+          <br />
+          <p style="font-size: 22px">
+            As a frontend developer we are creating <br />
+            a website and applications using web languages <br />such as HTML,
+            CSS, and JavaScript that allow <br />
+            users to access and interact with the site or app.
+          </p>
+          <img class="image" src="img2.jpg" alt="" />
+        </div>
+        <div class="box"> 
+          <div class="box1">
+            <h3 style="font-size:50px; margin-left: 20px;  "> <B>Education </B></h3><br>
+            <ul  style="font-size: 22px; list-style-type: none;  color:rgb(79, 76, 76)">
+              <li>S.V.M Senior Secondary School(10<sup>th</sup> Grade) </li><br>
+              <li>S.V.M Senior Secondary School(12<sup>th</sup> Grade)</li><br>
+              <li>ABES INSTITUTE OF TECHNOLOGY(2022-2026)</li>
+              
+              
+            </ul>
+          </div>
+          <div class="box2">
+            <h3 style="font-size:50px ; margin-left: 65px; "> <B>Skills</B></h3><br>
+            <ul style="font-size: 28px; list-style-type: none; color:rgb(79, 76, 76) ">
+              <li>HTML,CSS</li><br>
+              <li>Python</li><br>
+              <li>C-Programming</li>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

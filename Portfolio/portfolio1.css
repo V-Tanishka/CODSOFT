@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #cdcaca;
+    width: 250px;
+    height: 200vh;
+
+}
+
+
+.sidebar nav{
+    padding: 45px;
+    margin-top: 100px ;
+
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+    
+    
+}
+
+.main{
+   /* background-color: yellow;*/
+
+    width: 80vw;
+}
+
+
+.container1{
+    display: flex;
+}
+.infocontainer{
+   /* background-color:rgb(250, 192, 255);*/
+    height: 25vw;
+    width: 65vw;
+    margin: 144px  auto;
+    justify-content:space-around ;
+    display: flex;
+
+    
+
+
+}
+
+.devimg img{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin-top: 78px ;
+    
+    
+
+}
+.devinfo{
+    
+    justify-content: center ;
+    flex-direction: column ;
+    margin:  125px; 
+}
+
+.hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 27px;
+    font-weight: bold; 
+}
+.about{
+    font-size: 23px;
+}
+.more{
+    font-size: 15;
+    margin-top: 20px;
+}
+button{
+    border-radius: 100px;
+    width:125px ;
+    display:inline;
+    background-color:rgb(164, 164, 188);
+    height: 35px;
+    margin:12px;
+    
+}
+button:hover{
+    background-color: rgb(71, 238, 238);
+    transition: all .8s ease;
+    
+}
+
+span{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+a:hover{
+    color: white;
+}
+
+
+.contactfrom{
+    font-family: 'Roboto Slab', serif;
+    
+    
+
+}
+
+.footer{
+width: 10px;
+height: 10px;
+background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
